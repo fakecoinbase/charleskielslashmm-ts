@@ -1,0 +1,32 @@
+{
+  "name": "mm-ts",
+  "version": "1.0.0",
+  "description": "Market Manager Server - TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charleskiel/mm-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charleskiel/mm-ts/issues"
+  },
+  "homepage": "https://github.com/charleskiel/mm-ts#readme",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "@types/websocket": "^1.0.0",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.19",
+    "moment": "^2.26.0",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "websocket": "^1.0.31"
+  }
+}
